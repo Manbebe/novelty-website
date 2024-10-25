@@ -56,5 +56,22 @@ a:hover{
 
 
 a{
-    transition: transform 0.3s;
+    transition: transform 3s;
 }
+
+
+
+
+.image-row{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.image-row img {
+    width: 380px;
+    height: 500px;
+    position: relative;
+  }
