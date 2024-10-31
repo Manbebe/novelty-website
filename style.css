@@ -88,8 +88,32 @@ a{
     margin: 0 auto;
     padding: 10px;
   }
+  @keyframes moveRight {
+    from {
+      left: 0;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
 
-
+   
 .witch{
-    
+position: fixed;
+top: 50%;
+left: 1%;
+transform: translate(-50%, -50%);
+width: 50px;
+animation: moveRight 10s linear infinite;
+}
+
+
+
+.pepe{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top:98%;
+    left: 99%;
+    width: 50px;
 }
